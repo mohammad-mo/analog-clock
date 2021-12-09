@@ -5,7 +5,7 @@
 }
 
 html {
-    background: url(tortoise-shell.svg);
+    background: #15224e;
 }
 
 body {
@@ -65,7 +65,7 @@ body {
   height: 12px;
   border-radius: 12px;
   margin: -12px 0 0 0;
-  background: #0b4be2;
+  background: #4f74ca;
   position: absolute;
   transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
