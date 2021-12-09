@@ -17,6 +17,7 @@ body {
 
 .main #seconds-stick {
   width: 2px;
+  border-radius: 2px;
   height: 130px;
   margin: -130px 0 0 -1px;
   background: #1f6cb9;
@@ -27,6 +28,7 @@ body {
 
 .main #minutes-stick {
   width: 4px;
+  border-radius: 4px;
   height: 120px;
   margin: -120px 0 0 -2px;
   background: #3753af;
@@ -37,6 +39,7 @@ body {
 
 .main #hours-stick {
   width: 6px;
+  border-radius: 6px;
   height: 85px;
   margin: -85px 0 0 -3px;
   background: #9ab9e7;
@@ -62,7 +65,7 @@ body {
   height: 12px;
   border-radius: 12px;
   margin: -12px 0 0 0;
-  background: #0742cc;
+  background: #0b4be2;
   position: absolute;
   transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
@@ -71,6 +74,7 @@ body {
 
 .main #circle span {
   width: 2px;
+  border-radius: 0 0 2px 2px;
   margin: 0 0 0 150px;
   position: absolute;
   background: #ffffff;
