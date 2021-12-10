@@ -9,15 +9,15 @@ const startTime = () =>
           hours = today.getHours(),
           minutes = today.getMinutes(),
           seconds = today.getSeconds()
-        //   console.log(hours, minutes, seconds)
+          console.log(hours, minutes, seconds)
 
     // Add class transform on all grabbed divs
     // Find and rotate seconds stick to degree for current seconds
     secondsStick.style.transform = `rotate(${ seconds * 6 }deg)`
     // Find and rotate minutes stick to degree for current minutes
-    minutesStick.style.transform = `rotate(${ minutes * 6 }deg)`
+    minutesStick.style.transform = `rotate(${ minutes * 6 + seconds / 10 }deg)`
     // Find and rotate hours stick to degree for current hours
-    hoursStick.style.transform = `rotate(${ hours * 15 }deg)`
+    hoursStick.style.transform = `rotate(${ hours * 30 + minutes / 2 }deg)`
 }
 
 // Function to create clock border sticks
