@@ -9,7 +9,7 @@ const startTime = () =>
           hours = today.getHours(),
           minutes = today.getMinutes(),
           seconds = today.getSeconds()
-          console.log(hours, minutes, seconds)
+        //   console.log(hours, minutes, seconds)
 
     // Add class transform on all grabbed divs
     // Find and rotate seconds stick to degree for current seconds
